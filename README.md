@@ -6,6 +6,6 @@ Integration is done with the Facebook.
 
 
 Related blog posts:  
-https://dazzling-hypatia-171301.netlify.app/oauth2-authentication/   
-https://dazzling-hypatia-171301.netlify.app/social-login-spring-react   
-https://dazzling-hypatia-171301.netlify.app/social-login-spring-react-2   
+[Authentication with oauth2](https://dazzling-hypatia-171301.netlify.app/oauth2-authentication/)   
+[Social login with React.js and Spring Boot - part 1](https://dazzling-hypatia-171301.netlify.app/social-login-spring-react)   
+[Social login with React.js and Spring Boot - part 2](https://dazzling-hypatia-171301.netlify.app/social-login-spring-react-2)   
