@@ -2,7 +2,7 @@
 This is the social login application with React.js and Spring Boot.
 Integration is done with the Facebook.
 
-<div style="text-align:center;size: 200px"><img src="https://drive.google.com/uc?export=view&amp;id=1lNCjKrBBZRH5KklGyKsX8hJpjHlE-VbF" /></div>
+![](https://drive.google.com/uc?export=view&amp;id=1lNCjKrBBZRH5KklGyKsX8hJpjHlE-VbF)
 
 
 Related blog posts:  
