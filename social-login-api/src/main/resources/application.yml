@@ -1,13 +1,10 @@
-oauth:
-  facebook:
-    clientId: "your-facebook-app-id"
-    secret: "your-facebook-secret"
-    redirect: "http://localhost:3000/"
-    api: "https://graph.facebook.com/v6.0"
-
-oauthsample:
-  swagger:
-    enabled: true
+social-login-app:
+  oauth:
+    facebook:
+      clientId: "your-facebook-app-id"
+      secret: "your-facebook-secret"
+      redirect: "http://localhost:3000/"
+      api: "https://graph.facebook.com/v6.0"
   web:
     cors:
       allowed-origins: "*"

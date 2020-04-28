@@ -50,17 +50,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth.authenticationProvider(oauth2AuthenticationProvider);
     }
 
-    @Override
-    public void configure(WebSecurity web) {
-        web.ignoring()
-                .antMatchers(HttpMethod.OPTIONS, "/**")
-                .antMatchers("/swagger-ui.html")
-                .antMatchers("/v2/api-docs/**")
-                .antMatchers("/swagger-resources/**")
-                .antMatchers("/app/**/*.{js,html}")
-                .antMatchers("/**/*.{js,html,css}");
-    }
-
     private LogoutSuccessHandler getLogoutHandler() {
         return (request, response, authentication) -> log.debug("{} logged out", authentication.getName());
     }

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 
 @Configuration
-@ConfigurationProperties(prefix = "oauthsample.web")
+@ConfigurationProperties(prefix = "social-login-app.web")
 @Getter
 @Setter
 public class WebProperties {
